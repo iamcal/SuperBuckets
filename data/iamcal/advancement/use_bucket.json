@@ -7,6 +7,9 @@
           "components": {
             "minecraft:consumable": {
               "consume_seconds": 1000000
+            },
+            "minecraft:custom_data": {
+              "super_bucket": 1
             }
           }
         }
@@ -14,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "iamcal:on_eat"
+    "function": "iamcal:on_use_bucket"
   }
 }

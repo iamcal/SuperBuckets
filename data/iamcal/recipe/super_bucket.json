@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "iamcal:iamcal",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+      "key": {
+    "#": [
+      "minecraft:iron_bars"
+    ],
+    "B": [
+      "minecraft:bucket"
+    ]
+  },
+    "result": {
+    "id": "minecraft:bucket",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {"super_bucket": 1},
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:item_name": "{\"color\":\"dark_red\",\"italic\":true,\"text\":\"Super Bucket\"}"
+    }
+  }
+}
