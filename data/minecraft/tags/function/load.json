@@ -1,5 +1,6 @@
 {
     "values": [
-        "find_looking:internal/load"
+        "find_looking:internal/load",
+        "iamcal:load"
     ]
 }
