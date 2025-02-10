@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 1000000
+            },
+            "minecraft:custom_data": {
+              "super_bucket": "squid"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "iamcal:on_use_squid_bucket"
+  }
+}

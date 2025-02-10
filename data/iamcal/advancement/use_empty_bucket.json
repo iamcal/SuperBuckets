@@ -9,7 +9,7 @@
               "consume_seconds": 1000000
             },
             "minecraft:custom_data": {
-              "super_bucket": 1
+              "super_bucket": "empty"
             }
           }
         }
@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "iamcal:on_use_bucket"
+    "function": "iamcal:on_use_empty_bucket"
   }
 }

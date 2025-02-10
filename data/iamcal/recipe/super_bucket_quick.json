@@ -15,7 +15,7 @@
     "id": "minecraft:emerald",
     "count": 1,
     "components": {
-      "minecraft:custom_data": {"super_bucket": 1},
+      "minecraft:custom_data": {"super_bucket": "empty"},
       "minecraft:enchantment_glint_override": true,
       "minecraft:item_name": "{\"color\":\"dark_red\",\"italic\":true,\"text\":\"Super Bucket\"}",
       "minecraft:item_model": "minecraft:bucket",
