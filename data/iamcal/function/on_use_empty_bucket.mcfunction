@@ -10,7 +10,7 @@ tag @e[type=squid,distance=..5] add find_looking.candidate
 tag @e[type=glow_squid,distance=..5] add find_looking.candidate
 
 # if we're still on cooldown, remove all candidates
-execute if score iamcal iamcal.cooldown matches 1.. run tag @e remove find_looking.candidate
+execute if score @s iamcal.cooldown matches 1.. run tag @e remove find_looking.candidate
 
 # see if we're looking at any candidates
 function find_looking:find

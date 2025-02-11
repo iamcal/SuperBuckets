@@ -5,4 +5,4 @@ advancement revoke @s only iamcal:use_glow_squid_bucket
 scoreboard players add @s iamcal.cooldown 0
 
 # if we're able to, spawn the glow squid
-execute if score iamcal iamcal.cooldown matches 0 run function iamcal:deploy_glow_squid
+execute if score @s iamcal.cooldown matches 0 run function iamcal:deploy_glow_squid
